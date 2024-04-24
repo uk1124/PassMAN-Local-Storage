@@ -19,7 +19,10 @@ const Navbar = () => {
         <button
           className="text-white bg-violet-700 my-5 mx-2 rounded-full flex  justify-between items-center ring-white ring-1"
           onClick={() =>
-            window.open("https://github.com/uk1124/PassMAN", "_blank")
+            window.open(
+              "https://github.com/uk1124/PassMAN-Local-Storage",
+              "_blank"
+            )
           }
         >
           <img
